@@ -1,0 +1,15 @@
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+user.name=aardiente
+user.email=anthony519@revature.net
+merge.tool=vsdiffmerge
+mergetool.prompt=true
+mergetool.vsdiffmerge.cmd="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\vsdiffmerge.exe" "$REMOTE" "$LOCAL" "$BASE" "$MERGED" //m
+mergetool.vsdiffmerge.keepbackup=false
+mergetool.vsdiffmerge.trustexitcode=true
+diff.tool=vsdiffmerge
+difftool.prompt=true
+difftool.vsdiffmerge.cmd="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\vsdiffmerge.exe" "$LOCAL" "$REMOTE" //t
+difftool.vsdiffmerge.keepbackup=false
